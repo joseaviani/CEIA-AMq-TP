@@ -65,7 +65,6 @@ class GradientBoostingModel:
 
         print("Mejores hiperparámetros:")
         print(gscv.best_params_)
-        print(f"\nMejor F1 macro (CV): {gscv.best_score_:.4f}")
 
         # Mejor modelo
         best_model = gscv.best_estimator_
@@ -81,7 +80,7 @@ class GradientBoostingModel:
         acc = accuracy_score(self.__y_test, y_pred)
         f1m = f1_score(self.__y_test, y_pred, average="macro")
 
-        print("\nResultados en train:")
+        print("\nResultados en test:")
         print(f"   Accuracy: {acc:.4f}")
         print(f"   F1 macro: {f1m:.4f}\n")
         print("Classification Report:")

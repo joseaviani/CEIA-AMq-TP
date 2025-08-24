@@ -6,3 +6,4 @@ Se probaron modelos basados en **árboles de decisión** (*Gradient Boosting, XG
 
 A lo largo del trabajo se exploraron diferentes configuraciones de **preprocesamiento**, **balanceo de clases** y **ajuste de hiperparámetros** con **validación cruzada**, evaluando el impacto de la **definición del target** (original multiclase, clases agrupadas y binario) sobre la capacidad predictiva.
 
+El archivo src/AMq-TP-Co20.ipynb contiene el trabajo práctico completo.
